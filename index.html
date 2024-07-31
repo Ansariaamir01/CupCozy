@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" conthreet="width=device-width, initial-scale=1.0" />
+    <title>CupCozy</title>
+    <!-- CSS Links -->
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Remix Icon css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Main css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Home page -->
+    <section class="section1" id="home">
+      <nav id="navigation">
+        <p>CupCozy</p>
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#coffee">Coffee</a>
+          <a href="#review">Reviews</a>
+          <a href="#about">About Us</a>
+          <a href="#location">Location</a>
+        </div>
+        <i class="ri-search-line"></i>
+      </nav>
+      <div id="content">
+        <h6>Welcome!</h6>
+        <h3 style="font-size: 33px;">
+          We serve the richest coffee <br />
+          in the city!
+        </h3>
+        <div id="explore">Explore Now</div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="1700"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/HomePage-Images/Ice coffee.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/HomePage-Images/Lungo coffee.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/HomePage-Images/Dalgona Coffee.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Timing Hour</h5>
+              <p class="card-text">
+                Everyday 10AM to 9PM <br />
+                Enjoy with your Friends & Family Rating:
+                <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                ><i class="ri-star-half-fill"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- section2 -->
+    <section class="section2">
+      <a href="https://en.wikipedia.org/wiki/Hot_Coffee" target="_blank"><img src="/Section2-Images/HotCoffee.png" alt="" id="img1" /></a>
+      <a href="https://en.wikipedia.org/wiki/Iced_coffee" target="_blank"><img src="/Section2-Images/ColdCoffee.png" alt="" id="img1" /></a>
+      <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank"><img src="/Section2-Images/CupCoffee.png" alt="" id="img1" /></a>
+      <a href="https://en.wikipedia.org/wiki/Dessert" target="_blank"><img src="/Section2-Images/Dessert.png" alt="" id="img1" /></a>
+    </section>
+
+    <!--main section -->
+    <main id="coffee">
+      <div class="main-container">
+        <div class="main-title">OUR SPECIAL COFFEE</div>
+        <i class="ri-arrow-left-line arrows"></i>
+        <i class="ri-arrow-right-line arrows"></i>
+        <div class="main-card-wrapper">
+          <div class="card1">
+            <div class="main-heart"><i class="ri-heart-line"></i></div>
+            <img src="/Product-Images/Lungo coffee.jpg" alt="Lungo Coffee" />
+            <div class="main-card-content">
+              <h3>Lungo Coffee</h3>
+              <p>An espresso coffee drink, topped with a small.</p>
+              <div class="main-price-order">
+                <div class="main-price">Rs. 199</div>
+                <a class="main-order-button">Check</a>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="main-heart"><i class="ri-heart-line"></i></div>
+            <img src="/Product-Images/Dalgona Coffee.jpg" alt="Dalgona Coffee" />
+            <div class="main-card-content">
+              <h3>Dalgona Coffee</h3>
+              <p>Whipped coffee made using instant coffee.</p>
+              <div class="main-price-order">
+                <div class="main-price">Rs. 159</div>
+                <a class="main-order-button">Check</a>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="main-heart"><i class="ri-heart-line"></i></div>
+            <img src="/Product-Images/Ice coffee.jpg" alt="Iced Coffee" />
+            <div class="main-card-content">
+              <h3>Iced Coffee</h3>
+              <p>Iced coffee is a coffee beverage served cold.</p>
+              <div class="main-price-order">
+                <div class="main-price">Rs. 149</div>
+                <a class="main-order-button">Check</a>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="main-heart"><i class="ri-heart-line"></i></div>
+            <img src="/Product-Images/latte art.jpg" alt="Filter Coffee" />
+            <div class="main-card-content">
+              <h3>Capuccino</h3>
+              <p>Perfect balance of espresso, milk & foam.</p>
+              <div class="main-price-order">
+                <div class="main-price">Rs. 59</div>
+                <a class="main-order-button">Check</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- box2 -->
+    <div class="main-container">
+      <div class="main-title">OUR SPECIAL DESSERT</div>
+      <i class="ri-arrow-left-line arrows"></i>
+      <i class="ri-arrow-right-line arrows"></i>
+      <div class="main-card-wrapper">
+        <div class="card1">
+          <div class="main-heart"><i class="ri-heart-line"></i></div>
+          <img src="/Product-Images/Chocolate Crossiant.jpg" alt="Lungo Coffee" />
+          <div class="main-card-content">
+            <h3>Chocolate Crossiant</h3>
+            <p>Made with Chococlate milk,sugar & flours</p>
+            <div class="main-price-order">
+              <div class="main-price">Rs. 199</div>
+              <a class="main-order-button">Check</a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="main-heart"><i class="ri-heart-line"></i></div>
+          <img src="/Product-Images/Tiramisu Chocolate.jpg" alt="Dalgona Coffee" />
+          <div class="main-card-content">
+            <h3>Chocolate Tiramisu</h3>
+            <p>Made with layers of mascarpone cream</p>
+            <div class="main-price-order">
+              <div class="main-price">Rs. 250</div>
+              <a class="main-order-button error">Check</a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="main-heart"><i class="ri-heart-line"></i></div>
+          <img src="/Product-Images/Churros.jpg" alt="Iced Coffee" />
+          <div class="main-card-content">
+            <h3>Churros</h3>
+            <p>Hot choco made with bittersweet chocolate</p>
+            <div class="main-price-order">
+              <div class="main-price">Rs. 170</div>
+              <a class="main-order-button">Check</a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="main-heart"><i class="ri-heart-line"></i></div>
+          <img src="/Product-Images/Lamington.jpg" alt="Filter Coffee" />
+          <div class="main-card-content">
+            <h3>Australian Lamingtons</h3>
+            <p>Made with a Delicious Sponge Cake</p>
+            <div class="main-price-order">
+              <div class="main-price">Rs. 280</div>
+              <a class="main-order-button">Check</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+    <!-- section 3 beans checkout -->
+    <section class="section3" id="product">
+      <div class="sec3-container">
+        <div id="img-1"></div>
+        <div id="sec3-text">
+          <h4  style="font-size: 35px; font-weight: 700; color: #2C2218;">
+            Check out our best <br />
+            coffee beans
+          </h4>
+          <button>Explore our products >></button>
+        </div>
+        <div id="img-2" style="height: 100%; width: 25%;">
+          <img src="/Section3-Images/bean.png" alt="" height="430">
+        </div>
+      </div>
+    </section>
+
+    <!--section 4 testimonial-->
+    <section class="section4">
+    <div class="join-us" id="review">
+      <span>Come and join <br> <p>OUR HAPPY CUSTOMERS</p></span>
+    </div>
+    <div class="section4-container">
+      <div class="container swiper">
+        <div class="slider-wrapper">
+          <div class="card-list swiper-wrapper">
+
+            <div class="card-item swiper-slide">
+                <img src="/Testimonial-Images/img-1.jpg" alt="" class="user-image">
+                <h2 class="user-name" style="color: black;">James Wilson</h2>
+                <p class="user-profession">Software Developer</p>
+                <div class="rating">
+                  <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"></i>
+                </div>
+                <span class="message">I dropped by to have a cappuccino and honestly, after 30 days here we did not have high expectations but if this cappuccino was served, i would be just as satisfied! great place with perfectly normal prices that i recommend!</span>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="/Testimonial-Images/img-2.jpg" alt="" class="user-image">
+                <h2 class="user-name" style="color: black;">Jane Adams</h2>
+                <p class="user-profession">Freelancer</p>
+                <div class="rating">
+                  <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                      ><i class="ri-star-half-fill"></i>
+                </div>
+                <span class="message">I've been ordering beans from you for three years. the quality of the product is consisthreetly high! i'm grateful for the care that is apparently put into the roasts and the excellent customer service.</span>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="/Testimonial-Images/img-3.jpg" alt="" class="user-image">
+                <h2 class="user-name" style="color: black;">Ian Peterson</h2>
+                <p class="user-profession">Manager</p>
+                <div class="rating">
+                  <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                      ><i class="ri-star-line"></i>
+                </div>
+                <span class="message">I can't start my morning without this Lungo coffee. It's smooth, not too bitter, and the aroma is just heavenly. It’s the best way to start my day. It makes my mornings so much brighter.</span>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="/Testimonial-Images/img-4.jpg" alt="" class="user-image">
+                <h2 class="user-name" style="color: black;">Angela Ganzales</h2>
+                <p class="user-profession">Entrepreneur</p>
+                <div class="rating">
+                  <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                      ><i class="ri-star-line"></i>
+                </div>
+                <span class="message">I dropped by to have a cappuccino and honestly, after 30 days here we did not have high expectations but if this cappuccino was served, i would be just as satisfied! great place with perfectly normal prices that i recommend!</span>
+
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="/Testimonial-Images/img-5.jpg" alt="" class="user-image">
+                <h2 class="user-name" style="color: black;">David Jack</h2>
+                <p class="user-profession">Software Engineer</p>
+                <div class="rating">
+                  <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                      ><i class="ri-star-line"></i>
+                </div>
+                <span class="message">I've been ordering beans from you for three years. the quality of the product is consisthreetly high! i'm grateful for the care that is apparently put into the roasts and the excellent customer service.</span>
+              </div>
+
+            <div class="card-item swiper-slide">
+                <img src="/Testimonial-Images/img-6.jpg" alt="" class="user-image">
+                <h2 class="user-name" style="color: black;">George</h2>
+                <p class="user-profession">Accountant</p>
+                <div class="rating">
+                  <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"></i>
+                </div>
+                <span class="message">I can't start my morning without this Lungo coffee. It's smooth, not too bitter, and the aroma is just heavenly. It’s the best way to start my day. It makes my mornings so much brighter.</span>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="/Testimonial-Images/img-7.jpg" alt="" class="user-image">
+                <h2 class="user-name" style="color: black;">Jacob Smith</h2>
+                <p class="user-profession">Business Man</p>
+                <div class="rating">
+                  <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"></i>
+                </div>
+                <span class="message">I dropped by to have a cappuccino and honestly, after 30 days here we did not have high expectations but if this cappuccino was served, i would be just as satisfied! great place with perfectly normal prices that i recommend!</span>
+            </div>
+
+            <div class="card-item swiper-slide">
+                <img src="/Testimonial-Images/img-8.jpg" alt="" class="user-image">
+                <h2 class="user-name" style="color: black;">Harry</h2>
+                <p class="user-profession">Freelancer</p>
+                <div class="rating">
+                  <i class="ri-star-fill"></i> <i class="ri-star-fill"></i
+                      ><i class="ri-star-fill"> </i><i class="ri-star-fill"></i
+                      ><i class="ri-star-half-fill"></i>
+                </div>
+                <span class="message">I've been ordering beans from you for three years. the quality of the product is consisthreetly high! i'm grateful for the care that is apparently put into the roasts and the excellent customer service.</span>
+            </div>
+
+          </div>
+            <div class="swiper-pagination" style="margin-bottom: 13px;"></div>
+            <div class="swiper-slide-button swiper-button-prev left-swiper"></div>
+            <div class="swiper-slide-button swiper-button-next right-swiper"></div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Section 5 About Us -->
+    <section class="section5" id="about">
+      <img src="/AboutUs-Images/bean1.png" alt="">
+      <span><img src="/AboutUs-Images/bean2.png" alt=""></span>
+      <i class="ri-arrow-left-double-line"></i>
+      <p></p>
+      <div id="about-text">
+        <h1>About Us</h1>
+        <p>Welcome, your cozy retreat nestled in the heart of Mumbai. Since opening our doors on 2019, we have been passionately serving the finest coffee and creating a warm, inviting atmosphere for coffee lovers and community members alike.
+          Our journey began with a simple dream: to craft exceptional coffee that brings people together.<br><br>Whether you're a regular or a first-time visitor, we invite you to be a part of the our family. Come in and enjoy a cup of our carefully crafted coffee, savor a delicious pastry, and experience the warmth and hospitality that define our café.</p>
+        <button id="btn">Know More >></button>
+      </div>
+      <h4><i class="ri-arrow-right-double-line"></i></h4>
+      <div id="about-img">
+      </div>
+    </section>
+
+    <!-- section 6 Our location -->
+     <section class="section6" id="location">
+      <header><h1>DISCOVER OUR LOCATION</h1><center><p>Experience the beauty and attraction of our beautiful place</p></center></header>
+      <div class="location-container">
+        <div class="iframe-section">
+          <a href="https://www.google.com/maps/place/Nagpada,+Mumbai,+Maharashtra+400008/@18.9675257,72.8288121,18.85z/data=!4m6!3m5!1s0x3be7ce3f9f251743:0xdd523b380925d527!8m2!3d18.9641028!4d72.8305238!16s%2Fm%2F02rclzz?entry=ttu" target="_blank"><button>Get Location!</button></a>
+        </div>
+        <div class="invitation-section">
+          <h3>Your're Invited <i class="ri-hearts-line"></i></h3>
+          <h5>Join us for an unforgettable coffee experience!</h5>
+          <h6>“Great coffee, great company, great vibes.” </h6>
+          <span>Indulge in our freshly brewed coffees, delicious pastries, and cozy ambiance. Whether you’re looking for a place to relax, catch up with friends, or get some work done, our coffee shop is the perfect spot. </span><hr>
+          <h6>
+              “Where every sip tells a story.”
+          </h6>
+          <span>
+            Come savor the warmth of our hospitality and the richness of our coffee. We can't wait to welcome you!
+          </span>
+        </div>
+    </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="ri-mail-send-line"></i> ansariiaamir245@gmail.com</a>
+        <a href=""><i class="ri-phone-line"></i> +91 9136323538</a>
+        <a href="https://www.google.com/maps/place/Nagpada,+Mumbai,+Maharashtra+400008/@18.9675257,72.8288121,18.85z/data=!4m6!3m5!1s0x3be7ce3f9f251743:0xdd523b380925d527!8m2!3d18.9641028!4d72.8305238!16s%2Fm%2F02rclzz?entry=ttu" target="_blank""><i class="ri-map-pin-line"></i> Click to get location</a>
+    </div>
+    <div class="footer-column">
+        <h3>Additional Info</h3>
+        <a href="">Privacy Policy</a>
+        <a href="">FAQs</a>
+        <a href="">Support</a>  
+    </div>
+    <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="#home">Home <i class="ri-links-fill"></i></a>
+        <a href="#coffee">Coffee <i class="ri-links-fill"></i></a>
+        <a href="#review">Reviews <i class="ri-links-fill"></i></a>
+        <a href="#about">About Us <i class="ri-links-fill"></i></a>
+        <a href="#location">Location <i class="ri-links-fill"></i></a>
+    </div>
+    <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://m.facebook.com/ansari.aamir.94009/" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="https://www.instagram.com/ansari.aamir245?igsh=MWcxMDBnNnhpM3lyeA==" target="_blank"><i class="ri-instagram-line"></i></i></a>
+          <a href="https://x.com/aamiransari04?t=oDkhQHao5g2xLgxGwanfWQ&s=09" target="_blank"><i class="ri-twitter-x-line"></i></i></a>
+          <a href="https://www.linkedin.com/in/aamir-ansari-10a49531b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="ri-linkedin-fill"></i></i></a>
+        </div>
+    </div>
+    </footer>
+
+    <!-- script files -->
+     <!-- SweetAlert script -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- GSAP script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- GSAP ScrollTrigger script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Swiper script for testimonial -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- main js file -->
+    <script src="script.js"></script>
+  </body>
+</html>
